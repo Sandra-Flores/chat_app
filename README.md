@@ -1,2 +1,2 @@
 # chat_app
-A simple chat application.
+A simple chat application using nodejs.
