@@ -1,0 +1,53 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url(https://lh3.googleusercontent.com/4D2DDaHD1gGEuq4qCwipgE0prnMyimz2a2IC4O-NXx8s9Oy0WE7dRDauYbQaklBeIow=h900);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1{
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#mainBox {
+  display: block;
+  height: 500px;
+  width: 100%;
+  min-width: 500px;
+}
+
+#chat {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#nicknames {
+  height: 50%;
+  width: 20%;
+  position:absolute;
+  top: 0px;
+  right:0px;
+  background:white;
+  overflow:auto;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
+
+#chat-area {
+  height: 50%;
+  width: 79%;
+  background:white;
+  overflow:auto;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
